@@ -14,6 +14,7 @@ public class JedisTest {
         //执行ping命令
         String ping = jedis.ping();
         System.out.println(ping);
+        System.out.println("Git merge!");
 
         //关闭连接
         jedis.close();
